@@ -1,0 +1,15 @@
+#Type your code here
+from math import sqrt
+
+def number1():
+    try:
+        number = int(input('Enter positive number: '))
+        result = sqrt(number)
+    except ValueError:
+        print('Enter posititve number')
+    except:
+        print("check again")
+    else:
+        print('the root: ', result)
+    
+number1()
