@@ -1,0 +1,11 @@
+num = float(input("Enter number: "))
+
+complex_calculation(num)
+
+def complex_calculation(num):
+    try:
+        result = num / (num - 5)
+    except Exception as e:
+        print("Error in something")
+    else:
+        print('the result is: ', result)
